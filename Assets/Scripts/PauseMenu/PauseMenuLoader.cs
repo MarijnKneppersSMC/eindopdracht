@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,11 +10,5 @@ public class PauseMenuLoader : MonoBehaviour
         {
             SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
